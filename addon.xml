@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.btsport"
+version="1.0.0"
+name="BT Sport Catchup Plugin"
+provider-name="fsegouin">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">BT Sport Catchup Plugin</summary>
+  <description lang="en">BT Sport Catchup Plugin</description>
+  <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
